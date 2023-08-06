@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="My_Portfolio.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b0241d826d.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Zakria-logos_white.png" alt="loading" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Farhan</span> <br> From Pakistan</h1>
+            </div>
+        </div>
+    </header>
+  <!-- ------------------abuout--------------- -->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="picx.png" alt="loading...  ">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Junior Front-end Web Developer with 2+ years experience in HTML, CSS and JavaScript and able built net application  form the ground  up-information gathering, planning design, development, testing and delivery and mintanance. Extremely passionate towards software architecture and design combined with sensitive to serve the needs of the business balanced with the delivery of high quality solutions.</p>
+                <div class="tab-title">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-contents active-tab  " id="skills">
+                    <ul>
+                        <li><span>Frontend Dev</span><br>Designing Web</li>
+                        <!-- <li><span>Mern Dev</span><br>Designing Web interfaces</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Dev</span><br>Designing Web</li>
+                        <!-- <li><span>Mern Dev</span><br>Designing Web interfaces</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>College</span><br>Information to Computer Science</li>
+                        <li><span>University</span><br>Doing Computer Science Degree</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 
+  <!-- --------------------services-------------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                Get online fast with our professional web design service. From simple to complex, our website design team will create, host, and update the site for you.
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+                
+                <h2>Frontend Web Development</h2>
+                Best front end developer freelance services online. Outsource your front end developer project and get it quickly done and delivered remotely online.
+                <a href="#">Learn more</a>
+            </div>
+            <!-- <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Mern Dev</h2>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita doloremque ut alias, ipsum distinctio maxime optio id amet laboriosam vel nisi placeat nesciunt quae iste. Minima similique voluptatem qui, labore necessitatibus voluptates, tenetur mollitia molestias nemo alias nesciunt.
+                <a href="#">Learn more</a>
+            </div> -->
+        </div>
+    </div>
+  </div>
+
+  <!-- ----------------portfolio------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="movie.png" alt="">    
+                <div class="layer">
+                    <h3>Movie Website</h3>
+                    <p>A website to watch movies, anime, web series, and TV shows. javascript bootstrap open-source ... Movie Database website written using HTML, CSS & JS</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="gaming.png" alt="">
+                <div class="layer">
+                    <h3>Gaming Website Landing Page</h3>
+                    <p>Gamics is a fully responsive gaming website, Responsive for all devices, build using HTML, CSS, and JavaScript. gaming-website responsive-website.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+            </div>
+            </div>
+            <div class="work">
+                <img src="Shopping.png" alt="">
+                <div class="layer">
+                    <h3>Online Shoppig Website</h3>
+                    <p>We use HTML code to build the foundation of an e-commerce website, and CSS code to style it. Every code is discussed in depth</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>djb7646@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+92 3405686257</p>
+                <div class="social-icons">
+                <a href="https://www.facebook.com/zakria.ahmed.940"><i class="fa-brands fa-"></i></a>
+                    <a href="https://twitter.com/farhanawan99?s=21&t=Nzu8sHDuRj_SIxNQ0vsQEA"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/farhanawan9"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/farhanawan99"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV!.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright &copy All rights reserved <i class="fa-solid fa-heart"></i></p>
+  </div>
+
+<!-- ---------------------- <Script> ----------------- -->
+
+  <script>
+    let tablinks=document.getElementsByClassName('tab-links');
+    let tabcontents=document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+    
+  <script>
+    let sidemenu = document.getElementById('sidemenu');
+   function openmenu(){
+    sidemenu.style.right = "0";
+
+   }
+   function closemenu(){
+    sidemenu.style.right = "-200px";
+
+   }
+   
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzMDfHrN5z--wSP9aML1C2ApbhptiplisP3bU1e8TXkhPj87XYCo3X9XKI0f-jh8chZsA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    let msg = document.getElementById('msg');
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
